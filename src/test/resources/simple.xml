@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:easy="https://github.com/amiladomingo/logging-aop/schema"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	https://github.com/amiladomingo/logging-aop/schema https://github.com/amiladomingo/logging-aop/schema/logging-aop-1.0.xsd">
+
+
+	<easy:annotation-driven />
+
+	<bean id="testBean" class="org.amiladomingo.logging.annotation.TestBean" />
+
+</beans>
